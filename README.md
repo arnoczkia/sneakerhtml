@@ -1,1 +1,1 @@
-https://arnoczkia.github.io/sneakerhtml
+https://arnoczkia.github.io/sneakerhtml/
