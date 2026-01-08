@@ -2,42 +2,50 @@
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IKT Projekt</title>
-	<link rel="stylesheet" href="style.css">
+    <title>Sneaker Weblap</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<h1>Sneakerek</h1>
-    
-	<!-- cipők -->
-	
-	<div class="cipo">
-		<h2>Air Jordan 1 Retro High OG Yellow Toe “Taxi” 
-		<br> €330.00
-		</h2>
-		<p>„Ikonikus siluett, klasszikus stílus - lépj be a legendába!”</p>
-        <img src="https://sneakcenter.com/cdn/shop/products/air-jordan-1-retro-high-og-yellow-toe-taxi-sneakcenter-1-34785039024395.png?height=864&v=1701594005" alt="Jordan 1 Retro High OG">
-	</div>
 
-    <div class="cipo">
-        <h2>Jordan 4 Retro “Cave Stone” 
-		<br>€209,99
-		</h2>
-		<p>„Robusztus forma, ütős dizájn - mindig kiemelkedsz a tömegből.”</p>
-		<img src="https://www.truetosole.hu/cdn/shop/files/Jordan4RetroCaveStone_1_747x449.png?v=1757189798" alt="Jordan 4 Retro “Cave Stone”">
-    </div>
-	
-	<div class="cipo">
-		<h2>Jordan 4 RM 
-		<br>€149.99 </h2>
-		<p>„Modern technológia találkozik klasszikus örökség – a jövő Jordanja.”</p>
-		<img src="https://static.flexdog.hu/flexdog-4/products/images/cd44a58e-e6b0-4ca2-8fe8-4cfe4b16edd9.png" alt="Jordan 4 RM">
-	</div>
-	<div class="cipo"> 
-		<h2>Nike Air Force 1 ‘07 
-		<br> €102,84 </h2>
-		<p>„A klasszikus, ami sosem megy ki a divatból. Letisztult, ikonikus, mindenhez passzol.”</p>
-	<img src="https://static.nike.com/a/images/t_default/f094af40-f82f-4fb9-a246-e031bf6fc411/WMNS+AIR+FORCE+1+%2707.png" alt="Air Force">
-	</div>
+<header>
+    <div class="logo" id="homeBtn">🏠︎</div>
+
+    <nav>
+        <button class="menu-btn" id="menuBtn">≡</button>
+        <div class="dropdown" id="dropdown">
+            <div data-brand="Adidas">Adidas</div>
+            <div data-brand="Nike">Nike</div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <h1 class="title" id="brandTitle">Főoldal</h1>
+    <p class="subtitle" id="brandDesc">
+        Ikonikus sneakerek és válogatása.
+    </p>
+
+    <!-- Fooldal -->
+    <div class="grid" id="grid">
+        <div class="card">
+            <a href="https://balazskicks.com/products/adidas-campus-80s-south-park-towelie-outlet"><img src="./adidas-campus-80s-south-park-towelie-1-1000.png"></a>
+            <h3>Limitált modellek</h3>
+            <p>Időtálló darabok a sneaker kultúrából.</p>
+        </div>
+
+        <div class="card">
+            <a href="https://peifeng888.en.made-in-china.com/product/eaZRKVFdewWb/China-Men-s-Hoodies-Black-Logo-Hoodie-Trendy-Hip-Hop-Streetwear-Sweatshirt.html"><img src="./Men-s-Hoodies-Black-Logo-Hoodie-Trendy-Hip-Hop-Streetwear-Sweatshirt.avif"></a>
+            <h3>Streetwear vibe</h3>
+            <p>Letisztult megjelenés, városi stílus.</p>
+        </div>
+
+        
+</main>
+
+<footer>
+    Készítette: Áron + Laci
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
